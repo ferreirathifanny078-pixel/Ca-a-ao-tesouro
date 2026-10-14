@@ -1,0 +1,20 @@
+
+#mapa {
+    display: grid;
+    grid-template-columns: repeat(5, 60px);
+    }
+button {
+    width: 60px;
+    height: 60px;
+    background-color: #ffecf1;
+    }
+
+body {
+    font-family: Arial, sans-serif;
+    background: #ffb6ce;
+    color: rgb(63, 0, 21);
+     margin: 0;
+    height: 108vh;
+    display: grid;
+    place-items: center; /* centraliza horizontal e vertical */
+}
